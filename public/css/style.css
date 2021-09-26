@@ -1,0 +1,120 @@
+html, body {
+    background-color: #fff;
+   /* color: white;*/
+    font-family: 'Nunito', sans-serif;
+    font-weight: 200;
+    height: 100vh;
+    margin: 0;
+}
+
+#header {
+   background-image: 
+    linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url(/images/bg.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.full-height {
+    height: 100vh;
+}
+
+.btn {
+    border-radius: 0;
+}
+
+.card {
+    border-radius: 0;
+}
+
+.flex-center {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.position-ref {
+    position: relative;
+}
+
+.top-right {
+    position: absolute;
+    right: 10px;
+    top: 18px;
+}
+
+.content {
+    text-align: center;
+}
+
+.content h2 {
+    font-family: 'Bebas Neue', cursive;
+    font-weight: 600;
+    letter-spacing: 6px;
+    color: white;
+    text-shadow: 1px 1px red;
+}
+
+.content span {
+    color: red;
+    font-family: 'Bebas Neue', cursive;
+    text-shadow: 1px 1px white;
+}
+
+.title {
+    font-size: 6rem;
+}
+
+.links > a {
+    color: white;
+    padding: 0 25px;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: .1rem;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.m-b-md {
+    margin-bottom: 30px;
+}
+
+/* Start of Login Page */
+
+#login {
+     background-image: 
+    linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(/images/bg.jpg);
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#card-login{
+    width: 60%;
+    margin: 5rem 0;
+    border: none;
+}
+
+/* End of login Page*/
+
+/* START OF REGISTER */
+#register {
+     background-image: 
+    linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(/images/bg.jpg);
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#card-register{
+    width: 80%;
+    margin: 5rem 0;
+    border: none;
+}
+/* END OF REGISTER */
